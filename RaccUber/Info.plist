@@ -28,6 +28,12 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>RACCUBER needs your location so our drivers can find you!</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>RACCUBER needs your location so our drivers can find you!</string>
+	<key>UIStatusBarHidden</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

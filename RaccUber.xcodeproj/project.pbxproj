@@ -7,21 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2052D91FE04813001BEE29 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2052D81FE04813001BEE29 /* UIViewControllerExt.swift */; };
 		BB6642AE1FCCD0F200056632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642AD1FCCD0F200056632 /* AppDelegate.swift */; };
-		BB6642B01FCCD0F200056632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642AF1FCCD0F200056632 /* ViewController.swift */; };
+		BB6642B01FCCD0F200056632 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642AF1FCCD0F200056632 /* HomeViewController.swift */; };
 		BB6642B31FCCD0F200056632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6642B11FCCD0F200056632 /* Main.storyboard */; };
 		BB6642B51FCCD0F200056632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6642B41FCCD0F200056632 /* Assets.xcassets */; };
 		BB6642B81FCCD0F200056632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6642B61FCCD0F200056632 /* LaunchScreen.storyboard */; };
+		BB6642C11FCD883000056632 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642C01FCD883000056632 /* GradientView.swift */; };
+		BB6642C31FCD9AB700056632 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642C21FCD9AB700056632 /* RoundImageView.swift */; };
+		BB6642C51FCD9CB000056632 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642C41FCD9CB000056632 /* RoundedShadowView.swift */; };
+		BB6642C71FCDA1C100056632 /* SmallCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642C61FCDA1C100056632 /* SmallCircleView.swift */; };
+		BB6642C91FCDA3A400056632 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642C81FCDA3A400056632 /* ShadowButton.swift */; };
+		BB6642CB1FCF27E600056632 /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642CA1FCF27E600056632 /* LeftSidePanelViewController.swift */; };
+		BB6642CE1FCF29FE00056632 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642CD1FCF29FE00056632 /* ContainerViewController.swift */; };
+		BB6642D11FCF2EB800056632 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6642D01FCF2EB800056632 /* CenterVCDelegate.swift */; };
+		BBAB54D51FD012D1008F7E1A /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAB54D41FD012D1008F7E1A /* UIViewExt.swift */; };
+		BBAB54D71FD073BB008F7E1A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAB54D61FD073BB008F7E1A /* LoginViewController.swift */; };
+		BBAB54D91FD0C854008F7E1A /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAB54D81FD0C854008F7E1A /* RoundedCornerTextField.swift */; };
+		BBAB54DB1FD176CA008F7E1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBAB54DA1FD176CA008F7E1A /* GoogleService-Info.plist */; };
+		BBAB54DE1FD1792A008F7E1A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAB54DD1FD1792A008F7E1A /* DataService.swift */; };
+		BBFE0C141FD81159001639A5 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE0C131FD81158001639A5 /* UpdateService.swift */; };
+		BBFE0C161FD82A1E001639A5 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE0C151FD82A1E001639A5 /* DriverAnnotation.swift */; };
+		BBFE0C181FD9A12E001639A5 /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE0C171FD9A12E001639A5 /* PassengerAnnotation.swift */; };
+		CD3CB17AC53A680DC37FDE14 /* Pods_RaccUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5748552F7D3A35B8B1384DC /* Pods_RaccUber.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19AB921D34FB763E1655F8F8 /* Pods-RaccUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaccUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaccUber/Pods-RaccUber.debug.xcconfig"; sourceTree = "<group>"; };
+		85C368931DDAF9BC14696F6C /* Pods-RaccUber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaccUber.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaccUber/Pods-RaccUber.release.xcconfig"; sourceTree = "<group>"; };
+		BB2052D81FE04813001BEE29 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		BB6642AA1FCCD0F200056632 /* RaccUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaccUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6642AD1FCCD0F200056632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB6642AF1FCCD0F200056632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB6642AF1FCCD0F200056632 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BB6642B21FCCD0F200056632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB6642B41FCCD0F200056632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6642B71FCCD0F200056632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6642B91FCCD0F200056632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6642C01FCD883000056632 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BB6642C21FCD9AB700056632 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		BB6642C41FCD9CB000056632 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		BB6642C61FCDA1C100056632 /* SmallCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCircleView.swift; sourceTree = "<group>"; };
+		BB6642C81FCDA3A400056632 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		BB6642CA1FCF27E600056632 /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
+		BB6642CD1FCF29FE00056632 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		BB6642D01FCF2EB800056632 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		BBAB54D41FD012D1008F7E1A /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		BBAB54D61FD073BB008F7E1A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBAB54D81FD0C854008F7E1A /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
+		BBAB54DA1FD176CA008F7E1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBAB54DD1FD1792A008F7E1A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BBFE0C131FD81158001639A5 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		BBFE0C151FD82A1E001639A5 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		BBFE0C171FD9A12E001639A5 /* PassengerAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
+		C5748552F7D3A35B8B1384DC /* Pods_RaccUber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaccUber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3CB17AC53A680DC37FDE14 /* Pods_RaccUber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02BB40A31B9610BB8541A981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19AB921D34FB763E1655F8F8 /* Pods-RaccUber.debug.xcconfig */,
+				85C368931DDAF9BC14696F6C /* Pods-RaccUber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36D5F75310114A35CE9137FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5748552F7D3A35B8B1384DC /* Pods_RaccUber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB6642A11FCCD0F200056632 = {
 			isa = PBXGroup;
 			children = (
 				BB6642AC1FCCD0F200056632 /* RaccUber */,
 				BB6642AB1FCCD0F200056632 /* Products */,
+				02BB40A31B9610BB8541A981 /* Pods */,
+				36D5F75310114A35CE9137FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +112,71 @@
 		BB6642AC1FCCD0F200056632 /* RaccUber */ = {
 			isa = PBXGroup;
 			children = (
+				BBAB54DC1FD178D5008F7E1A /* Service */,
+				BBAB54D31FD012B1008F7E1A /* Extension */,
+				BB6642CF1FCF2E8D00056632 /* Protocol */,
+				BB6642CC1FCF298000056632 /* Controller */,
+				BB6642BF1FCD880F00056632 /* View */,
 				BB6642AD1FCCD0F200056632 /* AppDelegate.swift */,
-				BB6642AF1FCCD0F200056632 /* ViewController.swift */,
 				BB6642B11FCCD0F200056632 /* Main.storyboard */,
 				BB6642B41FCCD0F200056632 /* Assets.xcassets */,
 				BB6642B61FCCD0F200056632 /* LaunchScreen.storyboard */,
 				BB6642B91FCCD0F200056632 /* Info.plist */,
+				BBAB54DA1FD176CA008F7E1A /* GoogleService-Info.plist */,
 			);
 			path = RaccUber;
+			sourceTree = "<group>";
+		};
+		BB6642BF1FCD880F00056632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB6642C81FCDA3A400056632 /* ShadowButton.swift */,
+				BB6642C41FCD9CB000056632 /* RoundedShadowView.swift */,
+				BB6642C01FCD883000056632 /* GradientView.swift */,
+				BB6642C21FCD9AB700056632 /* RoundImageView.swift */,
+				BB6642C61FCDA1C100056632 /* SmallCircleView.swift */,
+				BBAB54D81FD0C854008F7E1A /* RoundedCornerTextField.swift */,
+				BBFE0C151FD82A1E001639A5 /* DriverAnnotation.swift */,
+				BBFE0C171FD9A12E001639A5 /* PassengerAnnotation.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB6642CC1FCF298000056632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB6642CA1FCF27E600056632 /* LeftSidePanelViewController.swift */,
+				BB6642AF1FCCD0F200056632 /* HomeViewController.swift */,
+				BB6642CD1FCF29FE00056632 /* ContainerViewController.swift */,
+				BBAB54D61FD073BB008F7E1A /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB6642CF1FCF2E8D00056632 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BB6642D01FCF2EB800056632 /* CenterVCDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BBAB54D31FD012B1008F7E1A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB54D41FD012D1008F7E1A /* UIViewExt.swift */,
+				BB2052D81FE04813001BEE29 /* UIViewControllerExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BBAB54DC1FD178D5008F7E1A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB54DD1FD1792A008F7E1A /* DataService.swift */,
+				BBFE0C131FD81158001639A5 /* UpdateService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6642BC1FCCD0F200056632 /* Build configuration list for PBXNativeTarget "RaccUber" */;
 			buildPhases = (
+				26890D28C22FAC7622222D35 /* [CP] Check Pods Manifest.lock */,
 				BB6642A61FCCD0F200056632 /* Sources */,
 				BB6642A71FCCD0F200056632 /* Frameworks */,
 				BB6642A81FCCD0F200056632 /* Resources */,
+				5B42B5D084B01C60620E4AA8 /* [CP] Embed Pods Frameworks */,
+				298418C5BF339F9A57B835E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6642B81FCCD0F200056632 /* LaunchScreen.storyboard in Resources */,
+				BBAB54DB1FD176CA008F7E1A /* GoogleService-Info.plist in Resources */,
 				BB6642B51FCCD0F200056632 /* Assets.xcassets in Resources */,
 				BB6642B31FCCD0F200056632 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +250,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26890D28C22FAC7622222D35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaccUber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298418C5BF339F9A57B835E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaccUber/Pods-RaccUber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B42B5D084B01C60620E4AA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RaccUber/Pods-RaccUber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaccUber/Pods-RaccUber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB6642A61FCCD0F200056632 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB6642B01FCCD0F200056632 /* ViewController.swift in Sources */,
+				BBAB54D71FD073BB008F7E1A /* LoginViewController.swift in Sources */,
+				BBAB54DE1FD1792A008F7E1A /* DataService.swift in Sources */,
+				BB2052D91FE04813001BEE29 /* UIViewControllerExt.swift in Sources */,
+				BB6642D11FCF2EB800056632 /* CenterVCDelegate.swift in Sources */,
+				BB6642B01FCCD0F200056632 /* HomeViewController.swift in Sources */,
+				BB6642CB1FCF27E600056632 /* LeftSidePanelViewController.swift in Sources */,
+				BB6642C31FCD9AB700056632 /* RoundImageView.swift in Sources */,
+				BB6642C51FCD9CB000056632 /* RoundedShadowView.swift in Sources */,
+				BBFE0C181FD9A12E001639A5 /* PassengerAnnotation.swift in Sources */,
+				BBAB54D51FD012D1008F7E1A /* UIViewExt.swift in Sources */,
+				BBFE0C161FD82A1E001639A5 /* DriverAnnotation.swift in Sources */,
 				BB6642AE1FCCD0F200056632 /* AppDelegate.swift in Sources */,
+				BBFE0C141FD81159001639A5 /* UpdateService.swift in Sources */,
+				BB6642C71FCDA1C100056632 /* SmallCircleView.swift in Sources */,
+				BB6642C91FCDA3A400056632 /* ShadowButton.swift in Sources */,
+				BBAB54D91FD0C854008F7E1A /* RoundedCornerTextField.swift in Sources */,
+				BB6642CE1FCF29FE00056632 /* ContainerViewController.swift in Sources */,
+				BB6642C11FCD883000056632 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +469,7 @@
 		};
 		BB6642BD1FCCD0F200056632 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AB921D34FB763E1655F8F8 /* Pods-RaccUber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +485,7 @@
 		};
 		BB6642BE1FCCD0F200056632 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C368931DDAF9BC14696F6C /* Pods-RaccUber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
